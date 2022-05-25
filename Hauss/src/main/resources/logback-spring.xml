@@ -1,0 +1,75 @@
+<!--Similar manual setting of the logger-->
+
+<configuration>
+    <include resource="/org/springframework/boot/logging/logback/base.xml" />
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ROL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/app.log</file>
+        <append>true</append>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/all.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="ru.kpfu.itis.hauss.controllers.ExceptionHandlersController" level="ERROR">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <logger name="ru.kpfu.itis.hauss.controllers.IdeasController" level="WARN">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <logger name="ru.kpfu.itis.hauss.controllers.ProfileController" level="WARN">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <logger name="ru.kpfu.itis.hauss.controllers.OffersController" level="WARN">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <logger name="ru.kpfu.itis.hauss.controllers.RegistrationController" level="WARN">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <logger name="ru.kpfu.itis.hauss.utils.api.currencies.CurrencyConverter" level="INFO">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <logger name="ru.kpfu.itis.hauss.utils.api.oauth.VkOAuthUtilsImpl" level="INFO">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <logger name="ru.kpfu.itis.hauss.utils.mail.EmailUtil" level="INFO">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <logger name="ru.kpfu.itis.hauss.services.impl.VkOAuthServiceImpl" level="ERROR">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <logger name="ru.kpfu.itis.hauss.security.oauth.VkOAuthAuthenticationProvider" level="ERROR">
+        <appender-ref ref="ROL_FILE" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>

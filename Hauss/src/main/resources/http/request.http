@@ -1,0 +1,4 @@
+## Получение комментариев
+
+GET http://localhost:8080/offers/1/reviews
+

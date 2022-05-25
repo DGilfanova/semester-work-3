@@ -1,0 +1,49 @@
+#Database properties
+spring.datasource.driver-class-name=
+spring.datasource.username=
+spring.datasource.password=
+spring.datasource.url=
+
+#Hibernate properties
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true
+
+spring.datasource.initialization-mode=always
+
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp
+spring.web.resources.static-locations=/WEB-INF/
+
+spring.servlet.multipart.max-file-size=10MB
+spring.servlet.multipart.max-request-size=10MB
+storage.location=./src/main/webapp/WEB-INF/images/upload
+
+#Mail properties
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=[username]
+spring.mail.password=[password]
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.allow8bitmime=true
+spring.mail.properties.mail.smtp.ssl.trust=smtp.gmail.com
+spring.mail.properties.mail.debug=true
+mail.template.path=/WEB-INF/freemarker
+mail.confirm.url=https://localhost:8080/confirm/
+
+#Currency rates API
+currency_api_personal_key=[key]
+currency_api_url=https://currate.ru/api/
+
+#VK OAuth
+oauth.vk.version=5.59
+oauth.vk.client_id=
+oauth.vk.client_secure_key=
+oauth.vk.redirect_uri=http://localhost:8080/vk-auth
+oauth.vk.response_type=code
+oauth.vk.api.auth_url=https://oauth.vk.com/authorize
+oauth.vk.api.get_user_url=https://api.vk.com/method/users.get
+oauth.vk.api.get_token_url=https://oauth.vk.com/access_token
+
+spring.main.allow-bean-definition-overriding=true
