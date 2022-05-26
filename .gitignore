@@ -26,3 +26,5 @@ nbproject/
 nb-configuration.xml
 .idea/
 *.iml
+
+application.properties
