@@ -47,3 +47,4 @@ oauth.vk.api.get_user_url=https://api.vk.com/method/users.get
 oauth.vk.api.get_token_url=https://oauth.vk.com/access_token
 
 spring.main.allow-bean-definition-overriding=true
+
