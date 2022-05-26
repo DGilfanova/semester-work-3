@@ -32,7 +32,7 @@ spring.mail.properties.mail.debug=true
 mail.template.path=/WEB-INF/freemarker
 mail.confirm.url=https://localhost:8080/confirm/
 
-#Currency rates API
+#Currency rates API properties
 currency_api_personal_key=[key]
 currency_api_url=https://currate.ru/api/
 
