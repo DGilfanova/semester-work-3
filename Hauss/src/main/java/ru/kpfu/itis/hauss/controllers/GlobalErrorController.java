@@ -24,3 +24,4 @@ public class GlobalErrorController implements ErrorController {
         return "error";
     }
 }
+

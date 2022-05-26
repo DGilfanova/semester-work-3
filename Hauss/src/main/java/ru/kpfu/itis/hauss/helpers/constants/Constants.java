@@ -9,6 +9,7 @@ public class Constants {
     public final static String PHOTO_DIRECTORY = "/images/upload";
 
     public final static String CONFIRM_MAIL_TEMPLATE_NAME = "confirm_mail";
+    public final static String ORDER_MAIL_TEMPLATE_NAME = "order_mail";
 
     public final static String ORDER_DATE_TEMPLATE = "yyyy-MM-dd";
     public final static String IDEA_DATE_TEMPLATE = "yyyy-MM-dd HH:mm";

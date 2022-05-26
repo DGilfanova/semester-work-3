@@ -1,5 +1,3 @@
-<!--Similar manual setting of the logger-->
-
 <configuration>
     <include resource="/org/springframework/boot/logging/logback/base.xml" />
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>

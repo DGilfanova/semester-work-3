@@ -1,61 +1,8 @@
-[INFO ] 2022-05-25 11:55:15.855 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 11:55:15.902 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 11:56:10.989 [http-nio-8080-exec-4] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 11:57:34.796 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 11:57:34.811 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 11:58:07.640 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 11:59:29.873 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 11:59:29.889 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 11:59:45.079 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 12:01:39.117 [http-nio-8080-exec-1] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get the currency rates for RUBUSD
-[INFO ] 2022-05-25 12:03:46.096 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 12:03:46.111 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 12:48:11.257 [http-nio-8080-exec-7] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 13:01:09.070 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 13:01:09.101 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 13:01:23.081 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 13:03:14.840 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 13:03:14.871 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 13:04:01.859 [http-nio-8080-exec-4] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[WARN ] 2022-05-25 13:06:16.558 [http-nio-8080-exec-4] r.k.i.h.c.ProfileController - Unsuccessful attempt to create order: gilfanova.dianka@mail.ru
-[INFO ] 2022-05-25 13:58:51.821 [http-nio-8080-exec-8] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:03:37.042 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:03:37.057 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:03:57.144 [http-nio-8080-exec-7] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:04:53.962 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:04:53.993 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:05:21.743 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:23:59.159 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:23:59.176 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:24:42.647 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[WARN ] 2022-05-25 14:27:02.674 [http-nio-8080-exec-6] r.k.i.h.c.ProfileController - Unsuccessful attempt to create order: gilfanova.dianka@mail.ru
-[INFO ] 2022-05-25 14:27:40.193 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:27:40.203 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:28:15.446 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:28:57.422 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:28:57.453 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:29:21.596 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:30:09.046 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:30:09.069 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:30:54.315 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:32:33.439 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:32:33.459 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:32:55.393 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:34:32.933 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:34:32.958 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:34:50.348 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:36:26.798 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:36:26.818 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:36:40.232 [http-nio-8080-exec-6] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:41:38.528 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:41:38.544 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:43:48.910 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:44:35.130 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:44:35.161 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:45:13.603 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:46:01.183 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:46:01.214 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:47:33.875 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
-[INFO ] 2022-05-25 14:48:29.516 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
-[INFO ] 2022-05-25 14:48:29.547 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
-[INFO ] 2022-05-25 14:49:30.613 [http-nio-8080-exec-5] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
+[INFO ] 2022-05-26 21:15:50.873 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
+[INFO ] 2022-05-26 21:15:50.925 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
+[INFO ] 2022-05-26 21:16:02.578 [http-nio-8080-exec-9] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
+[INFO ] 2022-05-26 21:27:25.698 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get all currency rates
+[INFO ] 2022-05-26 21:27:25.726 [main] r.k.i.h.u.a.c.CurrencyConverter - Successfully init currency list
+[INFO ] 2022-05-26 21:28:02.421 [http-nio-8080-exec-4] r.k.i.h.u.a.o.VkOAuthUtilsImpl - Successfully get vk oAuth token
+[INFO ] 2022-05-26 21:28:22.603 [http-nio-8080-exec-4] r.k.i.h.u.a.c.CurrencyConverter - Successfully execution of a request to get the currency rates for RUBUSD
+[INFO ] 2022-05-26 21:28:50.511 [http-nio-8080-exec-1] r.k.i.h.u.m.EmailUtil - Successfully send email to fanoval.company@gmail.com

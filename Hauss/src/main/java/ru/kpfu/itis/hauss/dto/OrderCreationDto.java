@@ -38,3 +38,4 @@ public class OrderCreationDto {
     @Size(max = 500, message = "Comment should contain no more than 500 characters")
     private String comment;
 }
+

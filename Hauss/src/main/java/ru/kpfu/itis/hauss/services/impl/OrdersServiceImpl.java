@@ -15,11 +15,15 @@ import ru.kpfu.itis.hauss.repositories.OffersRepository;
 import ru.kpfu.itis.hauss.repositories.OrdersRepository;
 import ru.kpfu.itis.hauss.services.OrdersService;
 import ru.kpfu.itis.hauss.utils.api.currencies.CurrencyConverter;
+import ru.kpfu.itis.hauss.utils.mail.EmailUtil;
 
 import java.time.LocalDate;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static ru.kpfu.itis.hauss.helpers.constants.Constants.DEFAULT_CURRENCY;
+import static ru.kpfu.itis.hauss.helpers.constants.Constants.ORDER_MAIL_TEMPLATE_NAME;
 
 @RequiredArgsConstructor
 @Service
@@ -31,6 +35,8 @@ public class OrdersServiceImpl implements OrdersService {
     private final AccountsRepository accountsRepository;
     private final OffersRepository offersRepository;
     private final CurrencyRepository currencyRepository;
+
+    private final EmailUtil emailUtil;
 
     @Autowired
     private final CurrencyConverter currencyConverter;
@@ -103,16 +109,23 @@ public class OrdersServiceImpl implements OrdersService {
         Currency currency = currencyRepository.findById(newData.getCurrencyId())
                 .orElseThrow(() -> new CurrencyNotFoundException("Currency not found"));
 
-        return OrderDto.from(ordersRepository.save(
-                Order.builder()
-                        .account(account)
-                        .offer(offer)
-                        .date(newData.getDate())
-                        .totalPrice(newData.getTotalPrice())
-                        .currency(currency)
-                        .comment(newData.getComment())
-                        .build()
-        ));
+        Order createdOrder = ordersRepository.save(Order.builder()
+                .account(account)
+                .offer(offer)
+                .date(newData.getDate())
+                .totalPrice(newData.getTotalPrice())
+                .currency(currency)
+                .comment(newData.getComment())
+                .build());
+
+        Map<String, String> map = new HashMap<>();
+        map.put("userName", createdOrder.getOffer().getAccount().getFirstName() + " " +
+                createdOrder.getOffer().getAccount().getLastName());
+        map.put("clientEmail", account.getEmail());
+
+        emailUtil.sendMail(createdOrder.getOffer().getAccount().getEmail(), "Order mail", ORDER_MAIL_TEMPLATE_NAME, map);
+
+        return OrderDto.from(createdOrder);
     }
 
     @Override

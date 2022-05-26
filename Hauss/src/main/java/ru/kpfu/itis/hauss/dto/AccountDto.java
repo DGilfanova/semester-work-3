@@ -51,3 +51,4 @@ public class AccountDto {
         return accounts.stream().map(AccountDto::from).collect(Collectors.toList());
     }
 }
+
